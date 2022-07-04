@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/printerbg_20"
+    android:fillViewport="false"
+    tools:context=".cpumainpage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!--https://www.amazon.in/Lenovo-IdeaCentre-Integrated-Bluetooth-90MV00HEIN/dp/B09RPCLVFR?ref_=ast_sto_dp -->
+
+        <TextView
+            android:id="@+id/product_name1"
+            android:layout_marginTop="30sp"
+            android:layout_marginBottom="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lenovo IdeaCentre 3 Desktop"
+            android:textAlignment="center"
+            android:textColor="#FFEB3B"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <ImageButton
+            android:id="@+id/image_lenovoideacentre"
+            android:layout_width="190dp"
+            android:layout_height="153dp"
+            android:layout_below="@+id/product_name"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="-7dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/cpu1" />
+
+        <TextView
+            android:id="@+id/product_price1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price : \u20B9 25,490"
+            android:textAlignment="center"
+            android:layout_marginTop="7dp"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            />
+        <Button
+            android:id="@+id/button_lenovoideacentre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100sp"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="100sp"
+            android:layout_marginBottom="40sp"
+            android:background="@drawable/heading_radius"
+            android:text="Details"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
+
+
+        <!-- https://www.amazon.in/Kanget-Assemble-Desktop-Motherboard-InteI/dp/B08DL36P6V/ref=sr_1_19?keywords=cpu+for+desktop+computer&qid=1653380272&sprefix=cpu%2Caps%2C735&sr=8-19-->
+        <TextView
+            android:id="@+id/product_name2"
+            android:layout_marginTop="30sp"
+            android:layout_marginBottom="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kanget Assemble Desktop PC CPU"
+            android:textAlignment="center"
+            android:textColor="#FFEB3B"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <ImageButton
+            android:id="@+id/image_kanget"
+            android:layout_width="190dp"
+            android:layout_height="153dp"
+            android:layout_below="@+id/product_name"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="-7dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/cpu4" />
+
+        <TextView
+            android:id="@+id/product_price4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price : \u20B9 8,686"
+            android:textAlignment="center"
+            android:layout_marginTop="7dp"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            />
+
+        <Button
+            android:id="@+id/button_kanget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100sp"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="100sp"
+            android:layout_marginBottom="40sp"
+            android:background="@drawable/heading_radius"
+            android:text="Details"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
+
+
+        <!-- https://www.amazon.in/Electrobot-Gaming-3000MHz-120GB-3400G/dp/B08CY2HPV6/ref=sr_1_22?keywords=cpu%2Bfor%2Bmacbook&qid=1653380770&s=computers&sr=1-22&th=1-->
+        <TextView
+            android:id="@+id/product_name8"
+            android:layout_marginTop="30sp"
+            android:layout_marginBottom="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Electrobot Bolt Gaming PC"
+            android:textAlignment="center"
+            android:textColor="#FFEB3B"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <ImageButton
+            android:id="@+id/image_electrobot_bolt"
+            android:layout_width="190dp"
+            android:layout_height="153dp"
+            android:layout_below="@+id/product_name"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="-7dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/cpu8" />
+
+        <TextView
+            android:id="@+id/product_price8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price : \u20B9 40,999"
+            android:textAlignment="center"
+            android:layout_marginTop="7dp"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            />
+
+        <Button
+            android:id="@+id/button_electrobot_bolt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100sp"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="100sp"
+            android:layout_marginBottom="40sp"
+            android:background="@drawable/heading_radius"
+            android:text="Details"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+        <!--https://www.amazon.in/Electrobot-Gaming-Tower-PC-Controller/dp/B07RYV331G/ref=sr_1_13_sspa?keywords=cpu%2Bfor%2Bmacbook&qid=1653380770&s=computers&sr=1-13-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEySk0xNzNDMTBXME5FJmVuY3J5cHRlZElkPUEwMDI2NTc1MkZPOEw0UE9UVFdaNSZlbmNyeXB0ZWRBZElkPUEwODQxODI5MzI5RVBXUEtRUVhXNyZ3aWRnZXROYW1lPXNwX210ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU&th=1 -->
+        <TextView
+            android:id="@+id/product_name9"
+            android:layout_marginTop="30sp"
+            android:layout_marginBottom="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Electrobot Gaming Tower PC"
+            android:textAlignment="center"
+            android:textColor="#FFEB3B"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <ImageButton
+            android:id="@+id/image_electrobot_gaming"
+            android:layout_width="190dp"
+            android:layout_height="153dp"
+            android:layout_below="@+id/product_name"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="-7dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/cpu9" />
+
+        <TextView
+            android:id="@+id/product_price9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price : \u20B9 81,999"
+            android:textAlignment="center"
+            android:layout_marginTop="7dp"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            />
+
+        <Button
+            android:id="@+id/button_electrobot_gaming"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100sp"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="100sp"
+            android:layout_marginBottom="40sp"
+            android:background="@drawable/heading_radius"
+            android:text="Details"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+        <!-- https://www.amazon.in/Apple-3-0GHz-6-core-8th-Generation-Processor/dp/B0864KFBNP/ref=sr_1_1?keywords=cpu%2Bfor%2Bmacbook&qid=1653381642&refinements=p_36%3A7252032031&rnid=7252027031&s=computers&sr=1-1&th=1-->
+        <TextView
+            android:id="@+id/product_name10"
+            android:layout_marginTop="30sp"
+            android:layout_marginBottom="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2020 Apple Mac Mini"
+            android:textAlignment="center"
+            android:textColor="#FFEB3B"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <ImageButton
+            android:id="@+id/image_applemacmini"
+            android:layout_width="190dp"
+            android:layout_height="153dp"
+            android:layout_below="@+id/product_name"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="-7dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/cpu10" />
+
+        <TextView
+            android:id="@+id/product_price10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price : \u20B9 1,04,884"
+            android:textAlignment="center"
+            android:layout_marginTop="7dp"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            />
+
+        <Button
+            android:id="@+id/button_applemacmini"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100sp"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="100sp"
+            android:layout_marginBottom="40sp"
+            android:background="@drawable/heading_radius"
+            android:text="Details"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+
+</ScrollView>

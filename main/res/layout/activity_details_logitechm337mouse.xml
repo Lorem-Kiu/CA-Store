@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/mousebg3"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:fillViewport="false"
+    tools:context=".details_logitechm337mouse">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="20sp"
+            android:layout_marginStart="20sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginEnd="20sp"
+            android:layout_marginBottom="20sp" />
+
+
+        <TextView
+            android:id="@+id/productname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginRight="40sp"
+            android:layout_marginBottom="10sp"
+            android:padding="10sp"
+            android:text="Product Name : LOGITECH M337 OPTICAL WIRELESS MOUSE"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/modelname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginRight="40sp"
+            android:layout_marginBottom="10sp"
+            android:padding="10sp"
+            android:text="Model : M337"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/modeltype"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="40sp"
+            android:layout_marginBottom="10sp"
+            android:padding="10sp"
+            android:text="Mouse Type : Optical"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/brand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="40sp"
+            android:layout_marginBottom="10sp"
+            android:padding="10sp"
+            android:text="Brand : Logitech"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="40sp"
+            android:layout_marginBottom="10sp"
+            android:padding="10sp"
+            android:text="Price : \u20B9 1,399"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:id="@+id/warranty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="40sp"
+            android:layout_marginBottom="10sp"
+            android:padding="10sp"
+            android:text="Warranty : 1 Year"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/features"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="40sp"
+            android:layout_marginBottom="10sp"
+            android:padding="10sp"
+            android:text="Features : \n\t\t\t1. LED indicator light \n\t\t\t2. Bluetooth classic (3.0) Connection Type \n\t\t\t3. Laser-Grade Optical Sensor"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/sellername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="40sp"
+            android:layout_marginBottom="10sp"
+            android:padding="10sp"
+            android:text="Name of Seller : Amazon India Pvt. Ltd."
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/addtocard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_design"
+            android:layout_marginTop="30sp"
+            android:layout_marginBottom="30sp"
+            android:layout_marginRight="70sp"
+            android:layout_marginLeft="70sp"
+            android:text="Add to cart" />
+
+        <Button
+            android:id="@+id/buynow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_design"
+            android:layout_marginBottom="30sp"
+            android:layout_marginRight="70sp"
+            android:layout_marginLeft="70sp"
+            android:text="buy now" />
+
+
+    </LinearLayout>
+
+</ScrollView>

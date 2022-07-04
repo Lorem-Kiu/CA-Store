@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/laptopw4"
+    tools:context=".register">
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/jacques_francois_shadow"
+        android:textAlignment="center"
+        android:padding="10sp"
+        android:layout_margin="20sp"
+        android:textColor="#00BCD4"
+        android:text="REGISTRATION PAGE" />
+
+    <EditText
+        android:id="@+id/email"
+        android:fontFamily="@font/atma_medium"
+        android:background="@drawable/input_design"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter your email"
+        android:padding="10sp"
+        android:layout_marginTop="80sp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_marginBottom="90sp"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/password"
+        android:fontFamily="@font/atma_medium"
+        android:background="@drawable/input_design"
+        android:padding="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:hint="Enter your password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="80sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/trade_winds"
+        android:padding="10sp"
+        android:background="@drawable/input_design"
+        android:textSize="22sp"
+        android:text="register" />
+
+</LinearLayout>

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/printerbg_7"
+    android:fillViewport="false"
+    tools:context=".printermainpage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!--https://www.amazon.in/Canon-TS207-Single-Function-Printer/dp/B07C5ZSC2W/ref=sr_1_5?keywords=printer&qid=1653392194&s=computers&sr=1-5-catcorr&th=1 -->
+        <TextView
+            android:id="@+id/product_name1"
+            android:layout_marginTop="30sp"
+            android:layout_marginBottom="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Canon Pixma TS207 Single Function Inkjet Printer(Black)"
+            android:textAlignment="center"
+            android:textColor="#FFEB3B"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <ImageButton
+            android:id="@+id/image_canonpixma_ts207"
+            android:layout_width="190dp"
+            android:layout_height="153dp"
+            android:layout_below="@+id/product_name"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="-7dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/printer1" />
+
+        <TextView
+            android:id="@+id/product_price1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price : \u20B9 2,099"
+            android:textAlignment="center"
+            android:layout_marginTop="7dp"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            />
+
+        <Button
+            android:id="@+id/button_canonpixma_ts207"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100sp"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="100sp"
+            android:layout_marginBottom="40sp"
+            android:background="@drawable/heading_radius"
+            android:text="Details"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+        <!--https://www.amazon.in/Brother-DCP-T520W-Printer-Wireless-Technology/dp/B08M4VPW2R/ref=sr_1_11?keywords=printer&qid=1653392194&s=computers&sr=1-11-catcorr -->
+        <TextView
+            android:id="@+id/product_name2"
+            android:layout_marginTop="30sp"
+            android:layout_marginBottom="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Brother DCP-T520W"
+            android:textAlignment="center"
+            android:textColor="#FFEB3B"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <ImageButton
+            android:id="@+id/image_brotherdcp_t520w"
+            android:layout_width="190dp"
+            android:layout_height="153dp"
+            android:layout_below="@+id/product_name"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="-7dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/printer2" />
+
+        <TextView
+            android:id="@+id/product_price2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price : \u20B9 14,599"
+            android:textAlignment="center"
+            android:layout_marginTop="7dp"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            />
+
+        <Button
+            android:id="@+id/button_brotherdcp_t520w"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100sp"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="100sp"
+            android:layout_marginBottom="40sp"
+            android:background="@drawable/heading_radius"
+            android:text="Details"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+        <!--https://www.amazon.in/HP-DeskJet-1212-Function-Printer/dp/B08CYRBXYX/ref=sr_1_3?keywords=printer&qid=1653392194&s=computers&sr=1-3-catcorr&th=1 -->
+        <TextView
+            android:id="@+id/product_name3"
+            android:layout_marginTop="30sp"
+            android:layout_marginBottom="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HP Deskjet 1212 Colour Printer for Home Use"
+            android:textAlignment="center"
+            android:textColor="#FFEB3B"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <ImageButton
+            android:id="@+id/image_hpdeskjet_1212"
+            android:layout_width="190dp"
+            android:layout_height="153dp"
+            android:layout_below="@+id/product_name"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="-7dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/printer3" />
+
+        <TextView
+            android:id="@+id/product_price3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price : \u20B9 2,699"
+            android:textAlignment="center"
+            android:layout_marginTop="7dp"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            />
+
+        <Button
+            android:id="@+id/button_hpdeskjet_1212"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100sp"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="100sp"
+            android:layout_marginBottom="40sp"
+            android:background="@drawable/heading_radius"
+            android:text="Details"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+        <!--https://www.amazon.in/Canon-G3000-Wireless-Colour-Printer/dp/B01H25A1AE/ref=sr_1_8?keywords=printer&qid=1653392194&s=computers&sr=1-8-catcorr&th=1 -->
+        <TextView
+            android:id="@+id/product_name4"
+            android:layout_marginTop="30sp"
+            android:layout_marginBottom="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Canon PIXMA G3000"
+            android:textAlignment="center"
+            android:textColor="#FFEB3B"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <ImageButton
+            android:id="@+id/image_canonpixma_g3000"
+            android:layout_width="190dp"
+            android:layout_height="153dp"
+            android:layout_below="@+id/product_name"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="-7dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/printer4" />
+
+        <TextView
+            android:id="@+id/product_price4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price : \u20B9 13,849"
+            android:textAlignment="center"
+            android:layout_marginTop="7dp"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            />
+
+        <Button
+            android:id="@+id/button_canonpixma_g3000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100sp"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="100sp"
+            android:layout_marginBottom="40sp"
+            android:background="@drawable/heading_radius"
+            android:text="Details"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+        <!--https://www.amazon.in/HP-DeskJet-Inkjet-Colour-Printer/dp/B08D9NDZ1Y/ref=sr_1_1?keywords=printer&qid=1653392194&s=computers&sr=1-1-catcorr -->
+        <TextView
+            android:id="@+id/product_name5"
+            android:layout_marginTop="30sp"
+            android:layout_marginBottom="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HP Deskjet 2331"
+            android:textAlignment="center"
+            android:textColor="#FFEB3B"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <ImageButton
+            android:id="@+id/image_hpdeskjet_2331"
+            android:layout_width="190dp"
+            android:layout_height="153dp"
+            android:layout_below="@+id/product_name"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="-7dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/printer5" />
+
+        <TextView
+            android:id="@+id/product_price5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price : \u20B9 4,099"
+            android:textAlignment="center"
+            android:layout_marginTop="7dp"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            />
+
+        <Button
+            android:id="@+id/button_hpdeskjet_2331"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100sp"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="100sp"
+            android:layout_marginBottom="40sp"
+            android:background="@drawable/heading_radius"
+            android:text="Details"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+</ScrollView>

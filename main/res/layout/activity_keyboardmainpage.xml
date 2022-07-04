@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/keyboardbg_3"
+    android:fillViewport="false"
+    tools:context=".keyboardmainpage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!--https://www.amazon.in/Cosmic-Byte-CB-GK-18-Ten-Keyless-Keyboard/dp/B08VWGK688/ref=sr_1_12?keywords=keyboard&qid=1653392755&rnid=3837712031&s=computers&sr=1-12&th=1 -->
+        <TextView
+            android:id="@+id/product_name1"
+            android:layout_marginTop="30sp"
+            android:layout_marginBottom="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cosmic Byte CB-GK-18 Firefly RGB Ten-Keyless Keyboard with Outemu Red Switch"
+            android:textAlignment="center"
+            android:textColor="#FFEB3B"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <ImageButton
+            android:id="@+id/image_cosmicbyte"
+            android:layout_width="190dp"
+            android:layout_height="153dp"
+            android:layout_below="@+id/product_name"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="-7dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/keyboard1" />
+
+        <TextView
+            android:id="@+id/product_price1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price : \u20B9 2,199"
+            android:textAlignment="center"
+            android:layout_marginTop="7dp"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            />
+
+        <Button
+            android:id="@+id/button_cosmicbyte"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100sp"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="100sp"
+            android:layout_marginBottom="40sp"
+            android:background="@drawable/heading_radius"
+            android:text="Details"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+        <!--https://www.amazon.in/Logitech-Multi-Device-Bluetooth-Keyboard-Black/dp/B00MUTWLW4/ref=sr_1_5?crid=1A2H8B2ITYPSO&keywords=keyboard%2Bwireless&qid=1653392863&s=computers&sprefix=keyboard%2Ccomputers%2C826&sr=1-5&th=1 -->
+        <TextView
+            android:id="@+id/product_name2"
+            android:layout_marginTop="30sp"
+            android:layout_marginBottom="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logitech K480 Wireless Multi-Device Keyboard"
+            android:textAlignment="center"
+            android:textColor="#FFEB3B"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <ImageButton
+            android:id="@+id/image_logitechk480"
+            android:layout_width="190dp"
+            android:layout_height="153dp"
+            android:layout_below="@+id/product_name"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="-7dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/keyboard2" />
+
+        <TextView
+            android:id="@+id/product_price2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price : \u20B9 1,995"
+            android:textAlignment="center"
+            android:layout_marginTop="7dp"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            />
+
+        <Button
+            android:id="@+id/button_logitechk480"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100sp"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="100sp"
+            android:layout_marginBottom="40sp"
+            android:background="@drawable/heading_radius"
+            android:text="Details"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+        <!--https://www.amazon.in/Redgear-Mechanical-Keyboard-Spectrum-Control/dp/B08T28HSDN/ref=sr_1_5?keywords=keyboard&qid=1653392755&rnid=3837712031&s=computers&sr=1-5 -->
+        <TextView
+            android:id="@+id/product_name3"
+            android:layout_marginTop="30sp"
+            android:layout_marginBottom="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Redgear Shadow Blade Mechanical Keyboard"
+            android:textAlignment="center"
+            android:textColor="#FFEB3B"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <ImageButton
+            android:id="@+id/image_redgearshadow"
+            android:layout_width="190dp"
+            android:layout_height="153dp"
+            android:layout_below="@+id/product_name"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="-7dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/keyboard3" />
+
+        <TextView
+            android:id="@+id/product_price3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price : \u20B9 2,199"
+            android:textAlignment="center"
+            android:layout_marginTop="7dp"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            />
+
+        <Button
+            android:id="@+id/button_redgearshadow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100sp"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="100sp"
+            android:layout_marginBottom="40sp"
+            android:background="@drawable/heading_radius"
+            android:text="Details"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+        <!--https://www.amazon.in/HP-K500F-Gaming-Keyboard-7ZZ97AA/dp/B08498D67S/ref=sr_1_4?keywords=keyboard&qid=1653392755&rnid=3837712031&s=computers&sr=1-4 -->
+        <TextView
+            android:id="@+id/product_name4"
+            android:layout_marginTop="30sp"
+            android:layout_marginBottom="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HP K500F Backlit Membrane Wired Gaming Keyboard"
+            android:textAlignment="center"
+            android:textColor="#FFEB3B"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <ImageButton
+            android:id="@+id/image_hpk500f"
+            android:layout_width="190dp"
+            android:layout_height="153dp"
+            android:layout_below="@+id/product_name"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="-7dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/keyboard4" />
+
+        <TextView
+            android:id="@+id/product_price4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price : \u20B9 999"
+            android:textAlignment="center"
+            android:layout_marginTop="7dp"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            />
+
+        <Button
+            android:id="@+id/button_hpk500f"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100sp"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="100sp"
+            android:layout_marginBottom="40sp"
+            android:background="@drawable/heading_radius"
+            android:text="Details"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+        <!--https://www.amazon.in/Zebronics-Km2100-Multimedia-USB-Keyboard/dp/B077T3BG5L/ref=sr_1_1?keywords=keyboard&qid=1653392755&rnid=3837712031&s=computers&sr=1-1&th=1 -->
+        <TextView
+            android:id="@+id/product_name5"
+            android:layout_marginTop="30sp"
+            android:layout_marginBottom="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Zebronics ZEB-KM2100 Multimedia USB Keyboard"
+            android:textAlignment="center"
+            android:textColor="#FFEB3B"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <ImageButton
+            android:id="@+id/image_zebronic"
+            android:layout_width="190dp"
+            android:layout_height="153dp"
+            android:layout_below="@+id/product_name"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="-7dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/keyboard5" />
+
+        <TextView
+            android:id="@+id/product_price5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price : \u20B9 259"
+            android:textAlignment="center"
+            android:layout_marginTop="7dp"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            />
+
+        <Button
+            android:id="@+id/button_zebronic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100sp"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="100sp"
+            android:layout_marginBottom="40sp"
+            android:background="@drawable/heading_radius"
+            android:text="Details"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+</ScrollView>

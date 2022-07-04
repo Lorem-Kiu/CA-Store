@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/printerbg_9"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:fillViewport="false"
+    tools:context=".printer_canonpixam_ts207">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="20sp"
+            android:layout_marginStart="20sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginEnd="20sp"
+            android:layout_marginBottom="20sp" />
+
+
+        <TextView
+            android:id="@+id/productname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginRight="40sp"
+            android:layout_marginBottom="10sp"
+            android:padding="10sp"
+            android:text="Product Name : CANON PIXMA TS207 INKJET PRINTER"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/modelname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginRight="40sp"
+            android:layout_marginBottom="10sp"
+            android:padding="10sp"
+            android:text="Model Name : Pixma"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="40sp"
+            android:layout_marginBottom="10sp"
+            android:padding="10sp"
+            android:text="Style : Printer"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/brand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="40sp"
+            android:layout_marginBottom="10sp"
+            android:padding="10sp"
+            android:text="Brand : Canon"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/sheetsize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="40sp"
+            android:layout_marginBottom="10sp"
+            android:padding="10sp"
+            android:text="Sheet Size : A4"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/connectivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="40sp"
+            android:layout_marginBottom="10sp"
+            android:padding="10sp"
+            android:text="Connectivity : USB"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="40sp"
+            android:layout_marginBottom="10sp"
+            android:padding="10sp"
+            android:text="Price : \u20B9 2,099"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:id="@+id/warranty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="40sp"
+            android:layout_marginBottom="10sp"
+            android:padding="10sp"
+            android:text="Warranty : 1 Year"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/features"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="40sp"
+            android:layout_marginBottom="10sp"
+            android:padding="10sp"
+            android:text="Features : Single Function"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/manufacturer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="40sp"
+            android:layout_marginBottom="10sp"
+            android:padding="10sp"
+            android:text="Manufacturer : Canon Inc."
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/addtocard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_design"
+            android:layout_marginTop="30sp"
+            android:layout_marginBottom="30sp"
+            android:layout_marginRight="70sp"
+            android:layout_marginLeft="70sp"
+            android:text="Add to cart" />
+
+        <Button
+            android:id="@+id/buynow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_design"
+            android:layout_marginBottom="30sp"
+            android:layout_marginRight="70sp"
+            android:layout_marginLeft="70sp"
+            android:text="buy now" />
+
+
+    </LinearLayout>
+
+</ScrollView>

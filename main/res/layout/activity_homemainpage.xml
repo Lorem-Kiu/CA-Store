@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/laptopwallpaper"
+    tools:context=".homemainpage">
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:fontFamily="@font/new_rocker"
+        android:padding="10sp"
+        android:text="WELCOME TO CA STORE"
+        android:textAlignment="center"
+        android:textColor="#FFC107"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <ImageButton
+        android:id="@+id/keyboardimg"
+        android:layout_width="135dp"
+        android:layout_height="133dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="56dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/keyboardimg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/monitorimg"
+        android:layout_width="135dp"
+        android:layout_height="133dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="44dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/monitorimg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/cpuimg"
+        app:layout_constraintHorizontal_bias="0.204"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/printerimg"
+        app:layout_constraintVertical_bias="0.016" />
+
+    <ImageButton
+        android:id="@+id/mouseImg"
+        android:layout_width="135dp"
+        android:layout_height="133dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="124dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/mouse"
+        app:layout_constraintEnd_toStartOf="@+id/keyboardimg"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/printerimg"
+        android:layout_width="135dp"
+        android:layout_height="133dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/printerimg"
+        app:layout_constraintEnd_toStartOf="@+id/laptopimg"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mouseImg" />
+
+    <ImageButton
+        android:id="@+id/laptopimg"
+        android:layout_width="135dp"
+        android:layout_height="133dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="52dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/laptopimg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/keyboardimg" />
+
+
+
+    <ImageButton
+        android:id="@+id/cpuimg"
+        android:layout_width="135dp"
+        android:layout_height="133dp"
+        android:layout_marginEnd="52dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/cpuimg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/laptopimg"
+        app:layout_constraintVertical_bias="0.273" />
+
+
+
+<!--    <com.google.android.material.bottomnavigation.BottomNavigationView-->
+<!--        android:id="@+id/bottomNavigationView"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.495"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/tv2"-->
+<!--        app:layout_constraintVertical_bias="1.0"-->
+<!--        android:background="#000000"-->
+<!--        app:itemIconTint="#E91E63"-->
+
+<!--        app:itemTextColor="#FBE200"-->
+<!--        android:outlineSpotShadowColor="#03A9F4"-->
+<!--        app:menu="@menu/bottomnavigation_menu"/>-->
+
+
+<!--    <FrameLayout-->
+<!--        android:id="@+id/framlayout"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:layout_marginStart="1dp"-->
+<!--        android:layout_marginEnd="1dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/bottomNavigationView"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/tv2">-->
+
+<!--    </FrameLayout>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

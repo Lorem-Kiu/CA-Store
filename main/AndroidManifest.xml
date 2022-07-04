@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.firebase8">
+
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Firebase8"
+        tools:targetApi="31">
+        <activity
+            android:name=".cpu_applemacmini"
+            android:exported="false" />
+        <activity
+            android:name=".cpu_electrobot_gaming"
+            android:exported="false" />
+        <activity
+            android:name=".cpu_electrobot_bolt"
+            android:exported="false" />
+        <activity
+            android:name=".cpu_kanget"
+            android:exported="false" />
+        <activity
+            android:name=".cpu_lenovoideacentre"
+            android:exported="false" />
+        <activity
+            android:name=".monitor_dell24monitor"
+            android:exported="false" />
+        <activity
+            android:name=".monitor_samsung24inch"
+            android:exported="false" />
+        <activity
+            android:name=".monitor_lg24inch"
+            android:exported="false" />
+        <activity
+            android:name=".monitor_samsung32inch"
+            android:exported="false" />
+        <activity
+            android:name=".monitor_appleimac"
+            android:exported="false" />
+        <activity
+            android:name=".laptop_hp14s"
+            android:exported="false" />
+        <activity
+            android:name=".laptop_asus"
+            android:exported="false" />
+        <activity
+            android:name=".laptop_dell15"
+            android:exported="false" />
+        <activity
+            android:name=".laptop_dellinspiron_3501"
+            android:exported="false" />
+        <activity
+            android:name=".laptop_applemackbookair"
+            android:exported="false" />
+        <activity
+            android:name=".printer_hpdeskjet_2331"
+            android:exported="false" />
+        <activity
+            android:name=".printer_canonpixma_g3000"
+            android:exported="false" />
+        <activity
+            android:name=".printer_hpdeskjet_1212"
+            android:exported="false" />
+        <activity
+            android:name=".printer_brotherdcp_t520w"
+            android:exported="false" />
+        <activity
+            android:name=".printer_canonpixam_ts207"
+            android:exported="false" />
+        <activity
+            android:name=".keyboard_zebronic"
+            android:exported="false"
+            android:parentActivityName=".keyboardmainpage" />
+        <activity
+            android:name=".keyboard_hp_k500f"
+            android:exported="false"
+            android:parentActivityName=".keyboardmainpage" />
+        <activity
+            android:name=".keyboard_redgearshadow"
+            android:exported="false"
+            android:parentActivityName=".keyboardmainpage" />
+        <activity
+            android:name=".keyboard_logitech_k480"
+            android:exported="false"
+            android:parentActivityName=".keyboardmainpage" />
+        <activity
+            android:name=".keyboard_cosmicbyte"
+            android:exported="false"
+            android:parentActivityName=".keyboardmainpage" />
+        <activity
+            android:name=".details_logitechm337mouse"
+            android:exported="false"
+            android:parentActivityName=".mousemainpage" />
+        <activity
+            android:name=".details_lenovo530mouse"
+            android:exported="false"
+            android:parentActivityName=".mousemainpage" />
+        <activity
+            android:name=".details_dellvm126"
+            android:exported="false"
+            android:parentActivityName=".mousemainpage" />
+        <activity
+            android:name=".details_dellms116"
+            android:exported="false"
+            android:parentActivityName=".mousemainpage" />
+        <activity
+            android:name=".cartlist"
+            android:exported="false" />
+        <activity
+            android:name=".details_hpx1000opticalmouse"
+            android:exported="false"
+            android:parentActivityName=".mousemainpage" />
+        <activity
+            android:name=".Profilepage"
+            android:exported="false"
+            android:parentActivityName=".homemainpage" />
+        <activity
+            android:name=".Wishlist"
+            android:exported="false"
+            android:parentActivityName=".homemainpage" />
+        <activity
+            android:name=".monitormainpage"
+            android:exported="false"
+            android:parentActivityName=".homemainpage" />
+        <activity
+            android:name=".cpumainpage"
+            android:exported="false"
+            android:parentActivityName=".homemainpage" />
+        <activity
+            android:name=".printermainpage"
+            android:exported="false"
+            android:parentActivityName=".homemainpage" />
+        <activity
+            android:name=".laptopmainpage"
+            android:exported="false"
+            android:parentActivityName=".homemainpage" />
+        <activity
+            android:name=".keyboardmainpage"
+            android:exported="false"
+            android:parentActivityName=".homemainpage" />
+        <activity
+            android:name=".mousemainpage"
+            android:exported="false"
+            android:parentActivityName=".homemainpage" />
+        <activity
+            android:name=".homemainpage"
+            android:exported="false" />
+        <activity
+            android:name=".confirmpersonaldetails"
+            android:exported="false" />
+        <activity
+            android:name=".personaldetails"
+            android:exported="false"
+            android:parentActivityName=".register" />
+        <activity
+            android:name=".register"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".login"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/loginpage2"
+    android:fillViewport="false">
+    tools:context=".mousemainpage">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/product_name1"
+            android:layout_marginTop="30sp"
+            android:layout_marginBottom="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HP X1000 OPTICAL MOUSE"
+            android:textAlignment="center"
+            android:textColor="#FFEB3B"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <ImageButton
+            android:id="@+id/mouse1"
+            android:layout_width="190dp"
+            android:layout_height="153dp"
+            android:layout_below="@+id/product_name"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="-7dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/hpmousewired2" />
+
+        <TextView
+            android:id="@+id/product_price1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price : \u20B9 349"
+            android:textAlignment="center"
+            android:layout_marginTop="7dp"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            />
+
+        <Button
+            android:id="@+id/detail1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100sp"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="100sp"
+            android:layout_marginBottom="40sp"
+            android:background="@drawable/heading_radius"
+            android:text="Details"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:id="@+id/product_name2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:layout_marginBottom="7dp"
+            android:text="DELL MS116 1000DPI USB MOUSE"
+            android:textAlignment="center"
+            android:textColor="#FFEB3B"
+
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <ImageButton
+            android:id="@+id/image_dellms116"
+            android:layout_width="190dp"
+            android:layout_height="153dp"
+            android:layout_below="@+id/product_name"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="-7dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/dellms116_1" />
+
+        <TextView
+            android:id="@+id/product_price2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price : \u20B9 249"
+            android:textAlignment="center"
+            android:layout_marginTop="7dp"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            />
+
+        <Button
+            android:id="@+id/button_dellms116"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100sp"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="100sp"
+            android:layout_marginBottom="40sp"
+            android:background="@drawable/heading_radius"
+            android:text="Details"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:id="@+id/product_name3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:layout_marginBottom="7dp"
+            android:text="DELL VM126 USB MOUSE"
+            android:textAlignment="center"
+            android:textColor="#FFEB3B"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <ImageButton
+            android:id="@+id/image_dellvm126"
+            android:layout_width="190dp"
+            android:layout_height="153dp"
+            android:layout_below="@+id/product_name"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="-7dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/dellvm126_1" />
+
+        <TextView
+            android:id="@+id/product_price3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price : \u20B9 899"
+            android:textAlignment="center"
+            android:layout_marginTop="7dp"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            />
+
+        <Button
+            android:id="@+id/button_dellvm126"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100sp"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="100sp"
+            android:layout_marginBottom="40sp"
+            android:background="@drawable/heading_radius"
+            android:text="Details"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/product_name4"
+            android:layout_marginTop="30sp"
+            android:layout_marginBottom="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" LENOVO 530 WIRELESS MOUSE"
+            android:textAlignment="center"
+            android:textColor="#FFEB3B"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <ImageButton
+            android:id="@+id/image_lenovo530"
+            android:layout_width="190dp"
+            android:layout_height="153dp"
+            android:layout_below="@+id/product_name"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="-7dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/lenovo530_1" />
+
+        <TextView
+            android:id="@+id/product_price4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price : \u20B9 749"
+            android:textAlignment="center"
+            android:layout_marginTop="7dp"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            />
+
+        <Button
+            android:id="@+id/button_lenovo530"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100sp"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="100sp"
+            android:layout_marginBottom="40sp"
+            android:background="@drawable/heading_radius"
+            android:text="Details"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:id="@+id/product_name5"
+            android:layout_marginTop="30sp"
+            android:layout_marginBottom="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LOGITECH M337  WIRELESS MOUSE"
+            android:textAlignment="center"
+            android:textColor="#FFEB3B"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <ImageButton
+            android:id="@+id/image_logitechm337"
+            android:layout_width="190dp"
+            android:layout_height="153dp"
+            android:layout_below="@+id/product_name"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="-7dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logitechm337_1" />
+
+        <TextView
+            android:id="@+id/product_price5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price : \u20B9 1,399"
+            android:textAlignment="center"
+            android:layout_marginTop="7dp"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            />
+
+        <Button
+            android:id="@+id/button_logitechm337"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100sp"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="100sp"
+            android:layout_marginBottom="40sp"
+            android:background="@drawable/heading_radius"
+            android:text="Details"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

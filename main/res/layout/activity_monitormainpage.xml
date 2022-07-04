@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/printerbg_1"
+    android:fillViewport="false"
+    tools:context=".monitormainpage">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!--https://www.amazon.in/Apple-21-5-inch-Dual-core-7th-Generation-Intel-Core-i5/dp/B08FBJSGY3/ref=sr_1_7?keywords=apple%2Bmonitor&pd_rd_r=b1a7421d-fc11-4de1-9ccd-fce810b3c885&pd_rd_w=Ig1Y1&pd_rd_wg=lpDcp&pf_rd_p=206c771a-9255-43c3-91ee-be3d883c7b95&pf_rd_r=BJ516T21M6B8N4FGT9CS&qid=1653382344&sr=8-7&th=1 -->
+        <TextView
+            android:id="@+id/product_name1"
+            android:layout_marginTop="30sp"
+            android:layout_marginBottom="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Apple iMac"
+            android:textAlignment="center"
+            android:textColor="#FFEB3B"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <ImageButton
+            android:id="@+id/image_appleimac"
+            android:layout_width="190dp"
+            android:layout_height="153dp"
+            android:layout_below="@+id/product_name"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="-7dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/monitor1" />
+
+        <TextView
+            android:id="@+id/product_price1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price : \u20B9 89,990"
+            android:textAlignment="center"
+            android:layout_marginTop="7dp"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            />
+
+        <Button
+            android:id="@+id/button_appleimac"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100sp"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="100sp"
+            android:layout_marginBottom="40sp"
+            android:background="@drawable/heading_radius"
+            android:text="Details"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
+        <!-- https://www.amazon.in/Samsung-Monitor-Worlds-Refresh-LS32BM500EWXXL/dp/B09Y5GHFVH/ref=sr_1_6?keywords=monitor%2B32%2Binch&pd_rd_r=756992b0-a63f-40b4-a225-4485eeeaecd8&pd_rd_w=bEszB&pd_rd_wg=zgXNA&pf_rd_p=206c771a-9255-43c3-91ee-be3d883c7b95&pf_rd_r=BQS0ZFZNMNY6KJEY4360&qid=1653382259&sr=8-6&th=1-->
+        <TextView
+            android:id="@+id/product_name3"
+            android:layout_marginTop="30sp"
+            android:layout_marginBottom="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Samsung 32 inch(81.3 cm)"
+            android:textAlignment="center"
+            android:textColor="#FFEB3B"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <ImageButton
+            android:id="@+id/image_samsung32inch"
+            android:layout_width="190dp"
+            android:layout_height="153dp"
+            android:layout_below="@+id/product_name"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="-7dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/monitor3" />
+
+        <TextView
+            android:id="@+id/product_price3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price : \u20B9 24,825"
+            android:textAlignment="center"
+            android:layout_marginTop="7dp"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            />
+
+        <Button
+            android:id="@+id/button_samsung32inch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100sp"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="100sp"
+            android:layout_marginBottom="40sp"
+            android:background="@drawable/heading_radius"
+            android:text="Details"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+        <!--https://www.amazon.in/LG-24MP60G-Free-sync-Display-Monitor/dp/B09GW8CXM1/ref=sr_1_19?keywords=monitor+24+inch&qid=1653382197&refinements=p_72%3A1318476031&rnid=1318475031&s=computers&sprefix=mon%2Ccomputers%2C379&sr=1-19 -->
+        <TextView
+            android:id="@+id/product_name5"
+            android:layout_marginTop="30sp"
+            android:layout_marginBottom="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LG 24 inches 24MP60G"
+            android:textAlignment="center"
+            android:textColor="#FFEB3B"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+
+        <ImageButton
+            android:id="@+id/image_lg24inch"
+            android:layout_width="190dp"
+            android:layout_height="153dp"
+            android:layout_below="@+id/product_name"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="-7dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/monitor5" />
+
+        <TextView
+            android:id="@+id/product_price5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price : \u20B9 13,891"
+            android:textAlignment="center"
+            android:layout_marginTop="7dp"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            />
+
+        <Button
+            android:id="@+id/button_lg24inch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100sp"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="100sp"
+            android:layout_marginBottom="40sp"
+            android:background="@drawable/heading_radius"
+            android:text="Details"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+
+        <!--https://www.amazon.in/Samsung-Odyssey-FreeSync-Premium-LF24G35TFWWXXL/dp/B08XBBGN7K/ref=sr_1_10?keywords=monitor%2B24%2Binch&qid=1653382197&refinements=p_72%3A1318476031&rnid=1318475031&s=computers&sprefix=mon%2Ccomputers%2C379&sr=1-10&th=1 -->
+        <TextView
+            android:id="@+id/product_name8"
+            android:layout_marginTop="30sp"
+            android:layout_marginBottom="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Samsung Odyssey 24 inches"
+            android:textAlignment="center"
+            android:textColor="#FFEB3B"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <ImageButton
+            android:id="@+id/image_samsung24inch"
+            android:layout_width="190dp"
+            android:layout_height="153dp"
+            android:layout_below="@+id/product_name"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="-7dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/monitor8" />
+
+        <TextView
+            android:id="@+id/product_price8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price : \u20B9 16,249"
+            android:textAlignment="center"
+            android:layout_marginTop="7dp"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            />
+
+        <Button
+            android:id="@+id/button_samsung24inch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100sp"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="100sp"
+            android:layout_marginBottom="40sp"
+            android:background="@drawable/heading_radius"
+            android:text="Details"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
+        <!--https://www.amazon.in/Dell-Monitor-S2421HN-Switching-Flicker-Free-Ultrathin/dp/B08GGF4L1K/ref=sr_1_6?keywords=monitor%2B24%2Binch&qid=1653382197&refinements=p_72%3A1318476031&rnid=1318475031&s=computers&sprefix=mon%2Ccomputers%2C379&sr=1-6&th=1 -->
+        <TextView
+            android:id="@+id/product_name10"
+            android:layout_marginTop="30sp"
+            android:layout_marginBottom="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dell 24 Monitor-S2421HN in-Plane Switching (IPS)"
+            android:textAlignment="center"
+            android:textColor="#FFEB3B"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <ImageButton
+            android:id="@+id/image_dell24monitor"
+            android:layout_width="190dp"
+            android:layout_height="153dp"
+            android:layout_below="@+id/product_name"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="-7dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/monitor10" />
+
+        <TextView
+            android:id="@+id/product_price10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price : \u20B9 13,899"
+            android:textAlignment="center"
+            android:layout_marginTop="7dp"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            />
+
+        <Button
+            android:id="@+id/button_dell24monitor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100sp"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="100sp"
+            android:layout_marginBottom="40sp"
+            android:background="@drawable/heading_radius"
+            android:text="Details"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+
+</ScrollView>

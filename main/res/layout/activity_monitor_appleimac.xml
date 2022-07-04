@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/printerbg_21"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:fillViewport="false"
+    tools:context=".monitor_appleimac">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="20sp"
+            android:layout_marginStart="20sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginEnd="20sp"
+            android:layout_marginBottom="20sp" />
+
+
+        <TextView
+            android:id="@+id/productname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginRight="40sp"
+            android:layout_marginBottom="10sp"
+            android:padding="10sp"
+            android:text="Product Name : APPLE iMAC 21.5 INCHES MONITOR"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/modelname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginRight="40sp"
+            android:layout_marginBottom="10sp"
+            android:padding="10sp"
+            android:text="Model Name : Apple iMac"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="40sp"
+            android:layout_marginBottom="10sp"
+            android:padding="10sp"
+            android:text="Color : Silver"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/connectivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="40sp"
+            android:layout_marginBottom="10sp"
+            android:padding="10sp"
+            android:text="Connectivity : Wired"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/harddisk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="40sp"
+            android:layout_marginBottom="10sp"
+            android:padding="10sp"
+            android:text="Harddisk : 256GB"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/ram"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="40sp"
+            android:layout_marginBottom="10sp"
+            android:padding="10sp"
+            android:text="RAM : 8 GB"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/brand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="40sp"
+            android:layout_marginBottom="10sp"
+            android:padding="10sp"
+            android:text="Brand : Apple"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+
+
+        <TextView
+            android:id="@+id/operatingsystem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="40sp"
+            android:layout_marginBottom="10sp"
+            android:padding="10sp"
+            android:text="Operating System : Mac OS"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="40sp"
+            android:layout_marginBottom="10sp"
+            android:padding="10sp"
+            android:text="Price : \u20B9 89,990"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:id="@+id/warranty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="40sp"
+            android:layout_marginBottom="10sp"
+            android:padding="10sp"
+            android:text="Warranty : 1 Year"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/processortype"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="40sp"
+            android:layout_marginBottom="10sp"
+            android:padding="10sp"
+            android:text="Processor Type : Core i5"
+            android:textColor="@color/white" />
+
+
+
+        <TextView
+            android:id="@+id/manufacturer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="40sp"
+            android:layout_marginBottom="10sp"
+            android:padding="10sp"
+            android:text="Manufacturer : Apple"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/addtocard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_design"
+            android:layout_marginTop="30sp"
+            android:layout_marginBottom="30sp"
+            android:layout_marginRight="70sp"
+            android:layout_marginLeft="70sp"
+            android:text="Add to cart" />
+
+        <Button
+            android:id="@+id/buynow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_design"
+            android:layout_marginBottom="30sp"
+            android:layout_marginRight="70sp"
+            android:layout_marginLeft="70sp"
+            android:text="buy now" />
+
+
+    </LinearLayout>
+</ScrollView>
